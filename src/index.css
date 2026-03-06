@@ -16,17 +16,15 @@
   src: url("/fonts/round-bold.woff");
 }
 
-@layer theme {
-  :root {
-    --font-sans: "Round", sans-serif;
-    --font-long: "Long", sans-serif;
-    --font-round-bold: "Round Bold", sans-serif;
-    --color-yellow: #fff9cb;
-    --color-pink: #ffb0c4;
-    --breakpoint-sm: 40rem;
-    --breakpoint-xs: 20rem;
-    --breakpoint-3xl: 120rem;
-  }
+@theme {
+  --font-sans: "Round", sans-serif;
+  --font-long: "Long", sans-serif;
+  --font-round-bold: "Round Bold", sans-serif;
+  --color-yellow: #fff9cb;
+  --color-pink: #ffb0c4;
+  --breakpoint-sm: 40rem;
+  --breakpoint-xs: 20rem;
+  --breakpoint-3xl: 120rem;
 }
 
 body {
